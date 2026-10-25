@@ -1,0 +1,7 @@
+Linux Komutları:
+
+whoami            bilgisayarı şu anda hangi kullanıcı ile kullandığınızı gösterir
+useradd/userdel   kullanıcı eklmeye veya kaldırmaya yarar
+wc                (wordcount) satır, kelime veya karakter saymaya yarar   [wc -| sadece satır, wc -w sadece kelime]
+cut -d   -f1-3    tabloları belirli bir noktaya göre ayırmaya yarar[d den sonra iki nokta varsa iki noktaya göre,-f1-3 hangi sütundan hangi sütuna gösterileceğini belirtir]
+chmod             kullanıcı veya grupların yetkilerini düzenlemek için kullanılır
