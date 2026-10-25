@@ -1,3 +1,3 @@
 # Not Uygulaması
 
-Bu uygulama öğrencilerin notlarını görüntüleyebilmesine ve not ortalamalarını almasına yarar.
+Bu uygulama öğrencilerin notlarını kaydetmesini ve sonra notları üzerindeki değişikliklerini takip etmesini sağlar.
