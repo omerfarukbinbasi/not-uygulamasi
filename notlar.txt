@@ -1,7 +1,14 @@
 Linux Komutları:
 
-whoami            bilgisayarı şu anda hangi kullanıcı ile kullandığınızı gösterir
-useradd/userdel   kullanıcı eklmeye veya kaldırmaya yarar
-wc                (wordcount) satır, kelime veya karakter saymaya yarar   [wc -| sadece satır, wc -w sadece kelime]
-cut -d   -f1-3    tabloları belirli bir noktaya göre ayırmaya yarar[d den sonra iki nokta varsa iki noktaya göre,-f1-3 hangi sütundan hangi sütuna gösterileceğini belirtir]
-chmod             kullanıcı veya grupların yetkilerini düzenlemek için kullanılır
+whoami               bilgisayarı şu anda hangi kullanıcı ile kullandığınızı gösterir
+useradd/userdel      kullanıcı eklmeye veya kaldırmaya yarar
+wc                   (wordcount) satır, kelime veya karakter saymaya yarar   [wc -| sadece satır, wc -w sadece kelime]
+cut -d   -f1-3       tabloları belirli bir noktaya göre ayırmaya yarar[d den sonra iki nokta varsa iki noktaya göre,-f1-3 hangi sütundan hangi sütuna gösterileceğini belirtir]
+chmod                kullanıcı veya grupların yetkilerini düzenlemek için kullanılır
+
+git switch -c        tek seferde hem yeni bir branch oluşturmak hem de o branch e geçmek için kullanılır
+git branch           yerel branchleri listeler. aktif branchin başında * işareti bulunur
+git add              belirtilen dosyayı commit edilmek üzere staging area ya ekler 
+git commit -m        staging area'daki dosyaya commit atmak için kullanılır.
+git push -u          master branchdeki commitleri origin adlı uzak depoya gönderir.
+
